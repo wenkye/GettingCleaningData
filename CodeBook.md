@@ -19,14 +19,19 @@ In other words, it should be like this:
   |---UCI HAR Dataset/
 ```
 
+## Variables
+
+* ```activity_labels``` contains all the data from activity_labels.txt.
+* ```features```  contains all the data from features.txt.
+* ```extract_features```  extract only the measuresments for mean and standard deviation.
+* ```X_test_data``` contains all the test data from x_test.txt.
+* ```y_test_data```  contains all the data from y_test.txt.
+* ```subject_test``` contains all data from subject_test.txt
+* ```x_train``` contains all data from X_train.txt
+* ```y_train``` contains all data from Y_train.txt
+* ```subject_train```  contains all data from subject_train.txt
+
 ## Transformations I have performed to clean up the data
-
-```activity_labels``` contains all the data from activity_labels.txt.
-```features```  contains all the data from features.txt.
-```extract_features```  extract only the measuresments for mean and standard deviation.
-```X_test_data``` contains all the test data from x_test.txt.
-```y_test_data```  contains all the data from y_test.txt.
-
 The run_analysis.R that does the following. 
 
 1. Merges the training and the test sets to create one data set.
@@ -41,5 +46,5 @@ The run_analysis.R that does the following.
 * Load both test and train data
 * Load the features and activity labels.
 * Extract the mean and standard deviation column names and data.
-* Process the data. There are two parts processing test and train data respectively.
+* Process the test data and train data.
 * Merge data set.
