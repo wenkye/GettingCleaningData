@@ -10,7 +10,8 @@ The requirements are:
  - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  
 ## Steps to run the code
-datafile link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 1. Download the data source and extract the zip file. The folder name should be UCI HAR Dataset.
 2. Put the code run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory using ```setwd()``` function in RStudio. The folder structure should be something like this
 ```
