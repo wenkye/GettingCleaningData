@@ -21,11 +21,11 @@ In other words, it should be like this:
 
 ## Transformations I have performed to clean up the data
 
-```activity_labels``` contains all the data from activity_labels.txt
-```features```  contains all the data from features.txt
-```extract_features```  extract only the measuresments for mean and standard deviation 
-```X_test_data``` contains all the test data from x_test.txt
-```y_test_data```  contains all the data from y_test.txt
+```activity_labels``` contains all the data from activity_labels.txt.
+```features```  contains all the data from features.txt.
+```extract_features```  extract only the measuresments for mean and standard deviation.
+```X_test_data``` contains all the test data from x_test.txt.
+```y_test_data```  contains all the data from y_test.txt.
 
 The run_analysis.R that does the following. 
 
